@@ -17,7 +17,7 @@ public class Unit2 {
         // TODO: Implement this method using String concatenation
 
 
-        return str1+str2;
+        return str1+" "+str2;
     }
 
     /**
@@ -68,7 +68,7 @@ public class Unit2 {
      */
     public static int roundValue(double value) {
         // TODO: Implement this method using Math.round
-        return Math.round(value);
+        return (int)Math.round(value);
     }
 
     /**
